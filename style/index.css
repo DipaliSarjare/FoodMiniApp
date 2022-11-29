@@ -1,0 +1,42 @@
+body{
+  background-image:url(https://cdn.wallpapersafari.com/65/37/8r61Jj.jpg);
+}
+
+#container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+
+}
+#container div {
+  padding: 10px;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 300px;
+  justify-content: center;
+  margin-top:20px;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  color: #8d0808;
+  border-radius:15px;
+ gap: 10px;
+ background-color: #d8e9e9;
+}
+#container img {
+  height: 170px;
+  width: 100%;
+  padding: 10px;
+}
+#add{
+  color: #e0e013;
+    width: 150px;
+    background-image: linear-gradient(to right, #f700ff,#001380);
+    height: 30px;
+    margin: auto;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+  border-radius: 20px;
+}
+ 

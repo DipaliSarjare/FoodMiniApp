@@ -1,0 +1,44 @@
+body{
+    /* background-image: linear-gradient(to bottom,#79cfae , #02063a); */
+    
+    background-image:url(https://cdn.wallpapersafari.com/65/37/8r61Jj.jpg);
+ 
+}  
+.head{
+    text-align: center;
+    color: #ffff;
+    margin-bottom: 6px;
+}
+#input-box{
+    width:36%;
+    /* border: 2px solid red; */
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    display: grid;
+    background-color: #032631;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+#input-box > input{
+    width: 94%;
+    padding: 8px;
+    display: grid;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 4px;
+   border: 1px solid #bbb7b7;
+}
+button{
+    text-align: center;
+    width: 94%;
+    font-size: 22px;
+    background-image: linear-gradient();
+    margin-bottom: 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+}
